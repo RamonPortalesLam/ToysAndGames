@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>{{ data.title }}</h1>
+<form novalidate autocomplete="off" [formGroup]="toyForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput type="text" formControlName="name" />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Price</mat-label>
+    <input matInput type="number" formControlName="price"/>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Company</mat-label>
+    <input matInput type="text" formControlName="company"/>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Maximum Age</mat-label>
+    <input matInput type="number" formControlName="ageRestriction"/>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Description</mat-label>
+    <textarea matInput formControlName="description"></textarea>
+  </mat-form-field>
+
+  <button mat-flat-button color="primary" (click)="save()" [disabled]="!toyForm.valid">Save</button>
+</form>

@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ToysAndGames/ToysAndGames.API/bin/Debug/net6.0
+/ToysAndGames/ToysAndGames.API/obj
+/ToysAndGames/ToysAndGames.Entities/bin/Debug/net6.0
+/ToysAndGames/ToysAndGames.Entities/obj
+/ToysAndGames/ToysAndGames.Interfaces/bin/Debug/net6.0
+/ToysAndGames/ToysAndGames.Interfaces/obj
+/ToysAndGames/ToysAndGames.NUnit/bin/Debug/net6.0
+/ToysAndGames/ToysAndGames.NUnit/obj
+/ToysAndGames/ToysAndGames.Repositories/bin/Debug/net6.0
+/ToysAndGames/ToysAndGames.Repositories/obj
+/Toys and Games/toys-and-games-ui/node_modules
+/Toys and Games/toys-and-games-ui/dist
+/Toys and Games/toys-and-games-ui/package-lock.json
